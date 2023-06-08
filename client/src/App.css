@@ -1,0 +1,134 @@
+.nav-ul li{
+  display: inline-block;
+  padding : 10px;
+}
+.nav-ul {
+  margin: 0px;
+  padding:5px;
+  background-color:  #0B2447;
+
+}
+.nav-ul li a{
+  color: #fff;
+  padding : 5px;
+  text-decoration:none;
+}
+.nav-ul li a:hover{
+   background-color: red;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.footer{
+  position: absolute;
+  bottom:0;
+  text-align: center;
+  width:100%;
+  background-color: #0B2447;
+}
+.footer h3{
+  color:#fff;
+}
+.form{
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: 30px;
+  padding: 10px;
+  width: 500px;
+  position: relative;
+  left:15px;
+  top:10px;
+}
+
+.form-control {
+  align-items: center;
+  justify-content: center;
+  display: block;
+  padding: 10px;
+  margin: 25px;
+  position: relative;
+  left: 30vw;
+  top:5vh;
+  border-radius: 5px;
+  border-color: #576CBC;
+}
+.form h1{
+  text-align: center;
+  color: #576CBC;
+  position: relative;
+  left:15vw;
+  top:2vh;
+}
+
+.appButton{
+  background-color: #576CBC;
+  margin: 25px;
+  padding: 5px;
+  width:100px;
+  border: 1px solid;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  position: relative;
+  top: 9vh;
+  left:32vw;
+}
+.appButton:hover{
+  background-color: #1d7ce9;
+}
+.login{
+  margin-left: 30%;
+  margin-top: 100px;
+}
+.form-control-login{
+  border-radius: 5px;
+  border-color: #576CBC;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: block;
+  margin: 25px;
+}
+.login-button{
+  background-color: #576CBC;
+  margin: 25px;
+  padding: 5px;
+  width:100px;
+  border: 1px solid;
+  cursor: pointer;
+  display: block;
+  position: relative;
+}
+.login-button:hover{
+  background-color: #1d7ce9;
+}
+.nav-right{
+  text-align: right;
+}
+.logo{
+  width: 36px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 8px;
+  margin-left:20px;
+}
+
+
+
