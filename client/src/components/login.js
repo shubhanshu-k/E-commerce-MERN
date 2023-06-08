@@ -4,8 +4,10 @@ const Login = () => {
 const [email,setEmail]=useState('');
 const [password,setPassword]=useState('');
 const navigate =useNavigate();
+// const baseURL = "http://localhost:5000"; //for local
+const baseURL = "https://ecommerce-backend-4ccy.onrender.com" //for cloud
 const handlelogin= async ()=>{
-    let result = await fetch("http://localhost:5000/login",{
+    let result = await fetch(`${baseURL}/login`,{
         method:'post',
         body:JSON.stringify({email,password}),
         headers:{

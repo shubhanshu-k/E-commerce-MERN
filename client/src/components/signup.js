@@ -6,6 +6,8 @@ const [name,setName]=useState("");
 const[password,setPassword]=useState("");
 const[email,setEmail]=useState("");
 const navigate=useNavigate();
+// const baseURL = "http://localhost:5000"; //for local
+const baseURL = "https://ecommerce-backend-4ccy.onrender.com" //for cloud
 useEffect(()=>{
   const auth =localStorage.getItem('user');
   if (auth){
@@ -14,7 +16,7 @@ useEffect(()=>{
 },[])
 const collectData= async ()=>{
     console.warn(name,email,password)
-      let result = await fetch('http://localhost:5000/register',
+      let result = await fetch(`${baseURL}/register`,
       {
         method:'post',
         body:JSON.stringify({name,email,password}),
