@@ -28,13 +28,12 @@ const AddProduct=()=>{
     />
     <input type="text"
     className='form-control-login'
-    placeholder='Enter product company'/
+    placeholder='Enter product company'
     onChange={(e)=>{setcompany(e.target.value)}}
-    >
+/>
     <button type='button' className='login-button' >Add Product </button>
 
 </div>
-
     )
 }
 export default AddProduct;
