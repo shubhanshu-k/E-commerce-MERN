@@ -2,6 +2,12 @@
   display: inline-block;
   padding : 10px;
 }
+.invalid-input{
+  display: block;
+  color: red ;
+  margin-top: 10px;
+  margin-left: 20px;
+}
 .nav-ul {
   margin: 0px;
   padding:5px;
@@ -52,7 +58,7 @@
   width: 500px;
   position: relative;
   left:15px;
-  top:10px;
+  top: 15px;
 }
 
 .form-control {
@@ -60,10 +66,10 @@
   justify-content: center;
   display: block;
   padding: 10px;
-  margin: 25px;
+  margin: 5x;
   position: relative;
   left: 30vw;
-  top:5vh;
+  top:10px;
   border-radius: 5px;
   border-color: #576CBC;
 }
@@ -129,6 +135,7 @@
   margin-top: 8px;
   margin-left:20px;
 }
+
 
 
 
