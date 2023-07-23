@@ -42,6 +42,21 @@ app.post("/login", async (req, resp) => {
     resp.send({ result: 'No User Found' })
   }
 })
+app.get("/products",async (req,resp)=>{
+  const products=await Product.find();
+  if(products.length>0){
+    resp.send(products)
+  }
+  else{
+    resp.send({result:"No Product Found"})
+  }
+
+})
+
+
+
+
+
 
 
 app.listen(PORT,()=>console.log(`Listening on: ${PORT}`))

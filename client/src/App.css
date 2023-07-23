@@ -137,5 +137,17 @@
 }
 
 
-
+.Product-list{
+  text-align: center;
+  margin: top 50px;
+}
+.Product-list ul li{
+  display:inline-block;
+  border: 3px solid orangered;
+  padding: 7px;
+  width: 100px;
+}
+.Product-list ul{
+  margin: 0;
+}
 
